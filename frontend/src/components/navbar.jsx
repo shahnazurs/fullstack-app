@@ -13,6 +13,9 @@ class NavBar extends Component {
                         <Link className="nav-link" to="/">Home</Link>
                     </li>
                     <li className="nav-item">
+                        <Link className="nav-link" to="/employeedashboard">Employee Dashboard</Link>
+                    </li>
+                    <li className="nav-item">
                         <Link className="nav-link" to="/about">About</Link>
                     </li>
                  
