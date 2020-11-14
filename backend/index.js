@@ -1,5 +1,9 @@
 const express = require('express');
 const mysql = require('mysql')
+const dotenv = require('dotenv')
+
+const env = dotenv.config().parsed;
+console.log(env.PORT);
 
 let app = express();
 const dbconn = mysql.createConnection({

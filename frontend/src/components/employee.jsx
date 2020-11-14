@@ -1,6 +1,8 @@
 import React, { Component } from 'react';
 import ModalDelete, {ModalAdd, ModalUpdate} from '../modals/models';
 
+
+
 class Employee extends Component {
     state = {
         employees: [],
@@ -12,6 +14,7 @@ class Employee extends Component {
     }
 
     componentDidMount() {
+        console.log(process.env);
         fetch("http://35.202.222.152:5000/")
         //fetch("http://localhost:5000/")
             .then(res => res.json())

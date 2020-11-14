@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { Link } from 'react-router-dom'
+import { NavLink } from 'react-router-dom'
 
 class NavBar extends Component {
     state = {}
@@ -8,16 +8,16 @@ class NavBar extends Component {
            
             <nav className="navbar navbar-expand-sm bg-dark navbar-dark" style={{marginBottom: 20}}>
 
-                <Link className="navbar-brand" to="/">Logo</Link>
+               
                 <ul className="navbar-nav">
                     <li className="nav-item">
-                        <Link className="nav-link" to="/">Home</Link>
+                        <NavLink className="nav-link" to="/">Home</NavLink>
                     </li>
                     <li className="nav-item">
-                        <Link className="nav-link" to="/employeedashboard">Employee Dashboard</Link>
+                        <NavLink className="nav-link" to="/employeedashboard">Employee Dashboard</NavLink>
                     </li>
                     <li className="nav-item">
-                        <Link className="nav-link" to="/about">About</Link>
+                        <NavLink className="nav-link" to="/about">About</NavLink>
                     </li>
                  
                 </ul>

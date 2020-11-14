@@ -16,3 +16,16 @@
 .display-none {
   display: none;
 }
+
+.myrow{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0;
+    justify-content: center;
+    
+}
+.myrow img{
+  height: 350px;
+  margin: 5px;
+  border: 2px solid rgb(76, 56, 95);
+}
