@@ -14,8 +14,8 @@ const ModalDelete = ({ handleDelete, handleClose, show, children }) => {
                     </div>
 
 
-                    <div className="modal-body">
-                        Are you sure ?
+                    <div className="modal-body" style={{textAlign: "center"}}>
+                        <img src={"./images/delete.jpg"} alt="Are you sure ?" width="100" height="100"/>
                     </div>
 
 
