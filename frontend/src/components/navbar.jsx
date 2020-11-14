@@ -5,7 +5,8 @@ class NavBar extends Component {
     state = {}
     render() {
         return (
-            <nav className="navbar navbar-expand-sm bg-dark navbar-dark">
+           
+            <nav className="navbar navbar-expand-sm bg-dark navbar-dark" style={{marginBottom: 20}}>
 
                 <Link className="navbar-brand" to="/">Logo</Link>
                 <ul className="navbar-nav">
@@ -21,6 +22,7 @@ class NavBar extends Component {
                  
                 </ul>
             </nav>
+
 
         );
     }
